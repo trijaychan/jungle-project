@@ -10,7 +10,7 @@
     Number of products: <%= Product.count %>
   </div>
   <div class="alert alert-info" role="alert">
-    Number of categories: <%= Product.distinct.pluck(:category_id).count %>
+    Number of categories: <%= Category.count %>
   </div>
 
 </section>
